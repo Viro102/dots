@@ -46,11 +46,6 @@
 
         <!-- IMPORTY -->
 
-        <!-- zákaz importovania z hviedičkou -->
-        <module name="AvoidStarImport">
-            <property name="excludes" value="org.junit.Assert" />
-        </module>
-
         <!-- zákaz importovania neštandardných balíčkov (napr. balíček sun.*) -->
         <module name="IllegalImport" />
 
